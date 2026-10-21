@@ -1,0 +1,86 @@
+0 verbose cli /Users/praveenkumar/.nvm/versions/node/v24.18.1/bin/node /Users/praveenkumar/.nvm/versions/node/v24.18.1/bin/npm
+1 info using npm@11.16.0
+2 info using node@v24.18.1
+3 silly config load:file:/Users/praveenkumar/.nvm/versions/node/v24.18.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/.npmrc
+5 silly config load:file:/Users/praveenkumar/.npmrc
+6 silly config load:file:/Users/praveenkumar/.nvm/versions/node/v24.18.1/etc/npmrc
+7 verbose title npm uninstall dot-env
+8 verbose argv "uninstall" "dot-env"
+9 verbose logfile logs-max:10 dir:/Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/.npm-cache/_logs/2026-10-21T10_21_39_390Z-
+10 verbose logfile /Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/.npm-cache/_logs/2026-10-21T10_21_39_390Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   '/Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/node_modules/dot-env'
+14 silly reify ]
+15 silly reify moves {
+15 silly reify   '/Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/node_modules/dot-env': '/Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/node_modules/.dot-env-QYcqo4cI'
+15 silly reify }
+16 silly audit bulk request {
+16 silly audit   anymatch: [ '3.1.3' ],
+16 silly audit   'balanced-match': [ '4.0.4' ],
+16 silly audit   'binary-extensions': [ '2.3.0' ],
+16 silly audit   'brace-expansion': [ '5.0.12' ],
+16 silly audit   braces: [ '3.0.3' ],
+16 silly audit   chokidar: [ '3.6.0' ],
+16 silly audit   debug: [ '4.4.3' ],
+16 silly audit   'fill-range': [ '7.1.1' ],
+16 silly audit   fsevents: [ '2.3.3' ],
+16 silly audit   'glob-parent': [ '5.1.2' ],
+16 silly audit   'has-flag': [ '3.0.0' ],
+16 silly audit   'ignore-by-default': [ '1.0.1' ],
+16 silly audit   'is-binary-path': [ '2.1.0' ],
+16 silly audit   'is-extglob': [ '2.1.1' ],
+16 silly audit   'is-glob': [ '4.0.3' ],
+16 silly audit   'is-number': [ '7.0.0' ],
+16 silly audit   minimatch: [ '10.2.6' ],
+16 silly audit   ms: [ '2.1.3' ],
+16 silly audit   nodemon: [ '3.1.14' ],
+16 silly audit   'normalize-path': [ '3.0.0' ],
+16 silly audit   picomatch: [ '2.3.2' ],
+16 silly audit   prettier: [ '3.9.10' ],
+16 silly audit   'pstree.remy': [ '1.1.8' ],
+16 silly audit   readdirp: [ '3.6.0' ],
+16 silly audit   semver: [ '7.8.5' ],
+16 silly audit   'simple-update-notifier': [ '2.0.0' ],
+16 silly audit   'supports-color': [ '5.5.0' ],
+16 silly audit   'to-regex-range': [ '5.0.1' ],
+16 silly audit   touch: [ '3.1.1' ],
+16 silly audit   undefsafe: [ '2.0.5' ]
+16 silly audit }
+17 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 520ms
+18 silly audit report {
+18 silly audit report   braces: [
+18 silly audit report     {
+18 silly audit report       id: 1240992,
+18 silly audit report       url: 'https://github.com/advisories/GHSA-vfj7-8cjw-p6xm',
+18 silly audit report       title: 'braces vulnerable to stack-exhaustion denial of service through deeply nested patterns',
+18 silly audit report       severity: 'high',
+18 silly audit report       vulnerable_versions: '<=3.0.3',
+18 silly audit report       cwe: [Array],
+18 silly audit report       cvss: [Object]
+18 silly audit report     }
+18 silly audit report   ]
+18 silly audit report }
+19 silly packumentCache corgi:https://registry.npmjs.org/braces cache-miss
+20 http cache https://registry.npmjs.org/braces 5ms (cache hit)
+21 silly packumentCache corgi:https://registry.npmjs.org/braces set size:35919 disposed:false
+22 silly packumentCache corgi:https://registry.npmjs.org/chokidar cache-miss
+23 http cache https://registry.npmjs.org/chokidar 3ms (cache hit)
+24 silly packumentCache corgi:https://registry.npmjs.org/chokidar set size:120332 disposed:false
+25 silly packumentCache corgi:https://registry.npmjs.org/nodemon cache-miss
+26 http cache https://registry.npmjs.org/nodemon 2ms (cache hit)
+27 silly packumentCache corgi:https://registry.npmjs.org/nodemon set size:282567 disposed:false
+28 silly REMOVE node_modules/dot-env
+29 warn allow-scripts 1 package has install scripts not yet covered by allowScripts:
+29 warn allow-scripts   fsevents@2.3.3 (install: (install scripts present))
+29 warn allow-scripts
+29 warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+30 verbose cwd /Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement
+31 verbose os Darwin 25.5.0
+32 verbose node v24.18.1
+33 verbose npm  v11.16.0
+34 verbose exit 0
+35 info ok
