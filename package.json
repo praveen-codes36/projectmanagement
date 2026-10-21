@@ -1,0 +1,27 @@
+{
+  "name": "projectmanagement",
+  "version": "1.0.0",
+  "description": "a project management application for beginner",
+  "keywords": [
+    "udemy",
+    "course"
+  ],
+  "homepage": "https://github.com/praveen-codes36/projectmanagement#readme",
+  "bugs": {
+    "url": "https://github.com/praveen-codes36/projectmanagement/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveen-codes36/projectmanagement.git"
+  },
+  "license": "ISC",
+  "author": "praveen kumar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10"
+  }
+}
