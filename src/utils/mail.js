@@ -16,7 +16,7 @@ const sendEmail = async (options)=>{
 
     const transporter = nodemailer.createTransport({
         host: process.env.MAILTRAP_SMTP_HOST,
-        port: process.emv.MAILTRAP_SMTP_PORT,
+        port: process.env.MAILTRAP_SMTP_PORT,
         auth:{
             user:process.env.MAILTRAP_SMTP_USER,
             pass:process.env.MAILTRAP_SMTP_PASS,
@@ -32,7 +32,7 @@ const sendEmail = async (options)=>{
     }
 
     try {
-        await transporter.sendMail(mail)
+        await transporter.sendMail(main)
     } catch (error) {
         console.error("Email service failed silienlty.Make sure that you have provided your MAILTRAP  credentials in the .env file")
         console.error("Error: ",error)
@@ -49,7 +49,7 @@ const emailVerificationMailgenContent = (username,verificationUrl) =>{
             intro:"Welcome to our App! we'are excited to have you on board.",
             action:{
                 instructions:"TO verifiy your email please click on the following button",
-                botton:{
+                button:{
                     color:"rgb(29, 229, 69)",
                     text:"Verify you email",
                     link:verificationUrl,
@@ -60,7 +60,6 @@ const emailVerificationMailgenContent = (username,verificationUrl) =>{
     };
 };
 
-import Mailgen from "mailgen";
 
 const forgetPasswordMailgenContent = (username,passwordResetUrl) =>{
     return {
@@ -69,7 +68,7 @@ const forgetPasswordMailgenContent = (username,passwordResetUrl) =>{
             intro:"We got a request to reset the passwrd of your account.",
             action:{
                 instructions:"To reset your password please click on the following button",
-                botton:{
+                button:{
                     color:"rgb(186, 229, 29)",
                     text:"Verify you email",
                     link:passwordResetUrl,
