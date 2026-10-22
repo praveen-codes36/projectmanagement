@@ -33,6 +33,7 @@
     "express": "^5.3.0",
     "jsonwebtoken": "^9.0.3",
     "mailgen": "^2.0.36",
-    "mongoose": "^9.11.2"
+    "mongoose": "^9.11.2",
+    "nodemailer": "^10.2.1"
   }
 }
