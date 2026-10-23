@@ -1,13 +1,13 @@
 import { validationResult } from "express-validator";
 import { ApiResponse } from "../utils/api-response";
-import { APIError } from "openai";
+import { APIError } from "../utils/api-error";
 
 
 export const validate = (req,res,next)=>{
     const errors = validationResult(req)
 
     if(errors.isEmpty()){
-        return next;
+        return next();
     }
 
     const extractedErrors = [];
