@@ -7,7 +7,7 @@
 6 silly config load:file:/Users/praveenkumar/.nvm/versions/node/v24.18.1/etc/npmrc
 7 verbose title npm run dev
 8 verbose argv "run" "dev"
-9 verbose logfile logs-max:10 dir:/Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/.npm-cache/_logs/2026-10-22T19_42_08_514Z-
-10 verbose logfile /Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/.npm-cache/_logs/2026-10-22T19_42_08_514Z-debug-0.log
+9 verbose logfile logs-max:10 dir:/Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/.npm-cache/_logs/2026-10-23T07_20_44_552Z-
+10 verbose logfile /Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/.npm-cache/_logs/2026-10-23T07_20_44_552Z-debug-0.log
 11 silly logfile start cleaning logs, removing 1 files
 12 silly logfile done cleaning log files
