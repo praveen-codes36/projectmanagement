@@ -100,5 +100,6 @@ export{
     userChangeCurrentPasswordValidator,
     forgotPasswordValidator,
     userResetForgotPasswordValidator,
-    addMembertoProjectValidator
+    addMembertoProjectValidator,
+    createProjectValidator
 }
