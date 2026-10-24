@@ -149,9 +149,38 @@ const deleteTask = asyncHandler(async(req,res)=>{
 const createSubTask = asyncHandler(async(req,res)=>{
     //chai
 })
+
 const updateSubTask = asyncHandler(async(req,res)=>{
-    //chai
+    const {projectId,subTaskId}=req.params;
+    const {title,isCompleted}=req.body;
+
+    const subTask = await SubTask.findById(subTaskId).populate("task","project");
+
+    if(!subTask || subTask.task?.project.toString() !== projectId){
+        throw new ApiError(404,"Subtask not found");
+    }
+
+    if(req.user.role === UserRolesEnum.MEMBER){
+        if(typeof isCompleted === "undefined"){
+            throw new ApiError(403,"Members can only update the completion status");
+        }
+        subTask.isCompleted = isCompleted;
+    } else {
+        if(title){
+            subTask.title = title;
+        }
+        if(typeof isCompleted !== "undefined"){
+            subTask.isCompleted = isCompleted;
+        }
+    }
+
+    await subTask.save();
+
+    return res
+        .status(200)
+        .json(new ApiResponse(200,subTask,"Subtask updated successfully"));
 })
+
 const deleteSubTask = asyncHandler(async(req,res)=>{
     //chai
 })
