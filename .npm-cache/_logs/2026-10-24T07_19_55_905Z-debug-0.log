@@ -1,0 +1,328 @@
+0 verbose cli /Users/praveenkumar/.nvm/versions/node/v24.18.1/bin/node /Users/praveenkumar/.nvm/versions/node/v24.18.1/bin/npm
+1 info using npm@11.16.0
+2 info using node@v24.18.1
+3 silly config load:file:/Users/praveenkumar/.nvm/versions/node/v24.18.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/.npmrc
+5 silly config load:file:/Users/praveenkumar/.npmrc
+6 silly config load:file:/Users/praveenkumar/.nvm/versions/node/v24.18.1/etc/npmrc
+7 verbose title npm install @types/multer
+8 verbose argv "install" "--save-dev" "@types/multer"
+9 verbose logfile logs-max:10 dir:/Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/.npm-cache/_logs/2026-10-24T07_19_55_905Z-
+10 verbose logfile /Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/.npm-cache/_logs/2026-10-24T07_19_55_905Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly idealTree buildDeps
+15 silly fetch manifest @types/multer@*
+16 silly packumentCache full:https://registry.npmjs.org/@types%2fmulter cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@types%2fmulter 272ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/@types%2fmulter set size:undefined disposed:false
+19 silly placeDep ROOT @types/multer@2.3.0 OK for: projectmanagement@1.0.0 want: *
+20 silly fetch manifest @types/express@*
+21 silly packumentCache full:https://registry.npmjs.org/@types%2fexpress cache-miss
+22 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress 70ms (cache revalidated)
+23 silly packumentCache full:https://registry.npmjs.org/@types%2fexpress set size:111396 disposed:false
+24 silly placeDep ROOT @types/express@5.0.6 OK for: @types/multer@2.3.0 want: *
+25 silly fetch manifest @types/body-parser@*
+26 silly packumentCache full:https://registry.npmjs.org/@types%2fbody-parser cache-miss
+27 silly fetch manifest @types/serve-static@^2
+28 silly packumentCache full:https://registry.npmjs.org/@types%2fserve-static cache-miss
+29 silly fetch manifest @types/express-serve-static-core@^5.0.0
+30 silly packumentCache full:https://registry.npmjs.org/@types%2fexpress-serve-static-core cache-miss
+31 http fetch GET 200 https://registry.npmjs.org/@types%2fserve-static 69ms (cache revalidated)
+32 silly packumentCache full:https://registry.npmjs.org/@types%2fserve-static set size:70891 disposed:false
+33 http fetch GET 200 https://registry.npmjs.org/@types%2fexpress-serve-static-core 218ms (cache revalidated)
+34 silly packumentCache full:https://registry.npmjs.org/@types%2fexpress-serve-static-core set size:271787 disposed:false
+35 http fetch GET 200 https://registry.npmjs.org/@types%2fbody-parser 222ms (cache revalidated)
+36 silly packumentCache full:https://registry.npmjs.org/@types%2fbody-parser set size:59500 disposed:false
+37 silly placeDep ROOT @types/body-parser@1.19.6 OK for: @types/express@5.0.6 want: *
+38 silly placeDep ROOT @types/express-serve-static-core@5.1.3 OK for: @types/express@5.0.6 want: ^5.0.0
+39 silly placeDep ROOT @types/serve-static@2.2.0 OK for: @types/express@5.0.6 want: ^2
+40 silly fetch manifest @types/node@*
+41 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+42 silly fetch manifest @types/connect@*
+43 silly packumentCache full:https://registry.npmjs.org/@types%2fconnect cache-miss
+44 silly fetch manifest @types/qs@*
+45 silly packumentCache full:https://registry.npmjs.org/@types%2fqs cache-miss
+46 silly fetch manifest @types/node@*
+47 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+48 silly fetch manifest @types/send@*
+49 silly packumentCache full:https://registry.npmjs.org/@types%2fsend cache-miss
+50 silly fetch manifest @types/range-parser@*
+51 silly packumentCache full:https://registry.npmjs.org/@types%2frange-parser cache-miss
+52 silly fetch manifest @types/node@*
+53 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/@types%2fconnect 64ms (cache revalidated)
+55 silly packumentCache full:https://registry.npmjs.org/@types%2fconnect set size:31546 disposed:false
+56 silly fetch manifest @types/http-errors@*
+57 silly packumentCache full:https://registry.npmjs.org/@types%2fhttp-errors cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/@types%2frange-parser 67ms (cache revalidated)
+59 silly packumentCache full:https://registry.npmjs.org/@types%2frange-parser set size:15310 disposed:false
+60 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 83ms (cache revalidated)
+61 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:11180437 disposed:false
+62 http fetch GET 200 https://registry.npmjs.org/@types%2fhttp-errors 66ms (cache revalidated)
+63 silly packumentCache full:https://registry.npmjs.org/@types%2fhttp-errors set size:49026 disposed:false
+64 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 261ms (cache revalidated)
+65 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:11180437 disposed:false
+66 http fetch GET 200 https://registry.npmjs.org/@types%2fsend 296ms (cache revalidated)
+67 silly packumentCache full:https://registry.npmjs.org/@types%2fsend set size:30017 disposed:false
+68 http fetch GET 200 https://registry.npmjs.org/@types%2fqs 296ms (cache revalidated)
+69 silly packumentCache full:https://registry.npmjs.org/@types%2fqs set size:84556 disposed:false
+70 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 309ms (cache revalidated)
+71 silly packumentCache full:https://registry.npmjs.org/@types%2fnode set size:11180437 disposed:false
+72 silly placeDep ROOT @types/connect@3.4.38 OK for: @types/body-parser@1.19.6 want: *
+73 silly placeDep ROOT @types/node@26.6.5 OK for: @types/body-parser@1.19.6 want: *
+74 silly fetch manifest undici-types@~8.9.0
+75 silly packumentCache full:https://registry.npmjs.org/undici-types cache-miss
+76 http fetch GET 200 https://registry.npmjs.org/undici-types 58ms (cache revalidated)
+77 silly packumentCache full:https://registry.npmjs.org/undici-types set size:283849 disposed:false
+78 silly placeDep ROOT @types/qs@6.15.1 OK for: @types/express-serve-static-core@5.1.3 want: *
+79 silly placeDep ROOT @types/range-parser@1.2.7 OK for: @types/express-serve-static-core@5.1.3 want: *
+80 silly placeDep ROOT @types/send@1.2.1 OK for: @types/express-serve-static-core@5.1.3 want: *
+81 silly placeDep ROOT undici-types@8.9.0 OK for: @types/node@26.6.5 want: ~8.9.0
+82 silly placeDep ROOT @types/http-errors@2.0.5 OK for: @types/serve-static@2.2.0 want: *
+83 silly reify moves {}
+84 silly audit bulk request {
+84 silly audit   '@mongodb-js/saslprep': [ '1.6.1' ],
+84 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+84 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+84 silly audit   '@types/whatwg-url': [ '13.0.0' ],
+84 silly audit   accepts: [ '2.0.0' ],
+84 silly audit   'ansi-colors': [ '4.1.3' ],
+84 silly audit   anymatch: [ '3.1.3' ],
+84 silly audit   async: [ '3.2.6' ],
+84 silly audit   'balanced-match': [ '4.0.4', '1.0.2' ],
+84 silly audit   bcrypt: [ '6.0.0' ],
+84 silly audit   'binary-extensions': [ '2.3.0' ],
+84 silly audit   'body-parser': [ '2.3.0' ],
+84 silly audit   boolbase: [ '1.0.0' ],
+84 silly audit   'brace-expansion': [ '5.0.12', '2.1.7' ],
+84 silly audit   braces: [ '3.0.3' ],
+84 silly audit   bson: [ '7.3.3' ],
+84 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+84 silly audit   bytes: [ '3.1.2' ],
+84 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+84 silly audit   'call-bound': [ '1.0.4' ],
+84 silly audit   cheerio: [ '1.0.0-rc.10' ],
+84 silly audit   'cheerio-select': [ '1.6.0' ],
+84 silly audit   chokidar: [ '3.6.0' ],
+84 silly audit   commander: [ '6.2.1' ],
+84 silly audit   'content-disposition': [ '2.0.1' ],
+84 silly audit   'content-type': [ '2.1.0' ],
+84 silly audit   cookie: [ '0.7.2' ],
+84 silly audit   'cookie-parser': [ '1.4.7' ],
+84 silly audit   'cookie-signature': [ '1.0.6', '1.2.2' ],
+84 silly audit   cors: [ '2.8.6' ],
+84 silly audit   'css-select': [ '4.3.0' ],
+84 silly audit   'css-what': [ '6.2.2' ],
+84 silly audit   debug: [ '4.4.3' ],
+84 silly audit   depd: [ '2.0.0' ],
+84 silly audit   'dom-serializer': [ '1.4.1' ],
+84 silly audit   domelementtype: [ '2.3.0' ],
+84 silly audit   domhandler: [ '4.3.1', '3.3.0' ],
+84 silly audit   domutils: [ '2.8.0' ],
+84 silly audit   dotenv: [ '18.0.8' ],
+84 silly audit   'dunder-proto': [ '1.0.1' ],
+84 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+84 silly audit   'ee-first': [ '1.1.1' ],
+84 silly audit   ejs: [ '3.1.10' ],
+84 silly audit   encodeurl: [ '2.0.0' ],
+84 silly audit   entities: [ '2.2.0' ],
+84 silly audit   'es-define-property': [ '1.0.1' ],
+84 silly audit   'es-errors': [ '1.3.0' ],
+84 silly audit   'es-object-atoms': [ '1.1.2' ],
+84 silly audit   'escape-goat': [ '3.0.0' ],
+84 silly audit   'escape-html': [ '1.0.3' ],
+84 silly audit   etag: [ '1.8.1' ],
+84 silly audit   express: [ '5.3.0' ],
+84 silly audit   'express-validator': [ '7.3.2' ],
+84 silly audit   filelist: [ '1.0.6' ],
+84 silly audit   minimatch: [ '5.1.9', '10.2.6' ],
+84 silly audit   'fill-range': [ '7.1.1' ],
+84 silly audit   finalhandler: [ '2.1.1' ],
+84 silly audit   forwarded: [ '0.2.0' ],
+84 silly audit   fresh: [ '2.0.0' ],
+84 silly audit   fsevents: [ '2.3.3' ],
+84 silly audit   'function-bind': [ '1.1.2' ],
+84 silly audit   'get-intrinsic': [ '1.3.0' ],
+84 silly audit   'get-proto': [ '1.0.1' ],
+84 silly audit   'glob-parent': [ '5.1.2' ],
+84 silly audit   gopd: [ '1.2.0' ],
+84 silly audit   'has-flag': [ '3.0.0' ],
+84 silly audit   'has-symbols': [ '1.1.0' ],
+84 silly audit   hasown: [ '2.0.4' ],
+84 silly audit   he: [ '1.2.0' ],
+84 silly audit   htmlparser2: [ '6.1.0', '5.0.1' ],
+84 silly audit   'http-errors': [ '2.0.1' ],
+84 silly audit   'iconv-lite': [ '0.7.3' ],
+84 silly audit   'ignore-by-default': [ '1.0.1' ],
+84 silly audit   inherits: [ '2.0.4' ],
+84 silly audit   'ipaddr.js': [ '1.9.1' ],
+84 silly audit   'is-binary-path': [ '2.1.0' ],
+84 silly audit   'is-extglob': [ '2.1.1' ],
+84 silly audit   'is-glob': [ '4.0.3' ],
+84 silly audit   'is-number': [ '7.0.0' ],
+84 silly audit   'is-promise': [ '4.0.0' ],
+84 silly audit   jake: [ '10.9.4' ],
+84 silly audit   jsonwebtoken: [ '9.0.3' ],
+84 silly audit   juice: [ '8.1.0' ],
+84 silly audit   jwa: [ '2.0.1' ],
+84 silly audit   jws: [ '4.0.1' ],
+84 silly audit   kareem: [ '3.4.1' ],
+84 silly audit   lodash: [ '4.18.1' ],
+84 silly audit   'lodash.includes': [ '4.3.0' ],
+84 silly audit   'lodash.isboolean': [ '3.0.3' ],
+84 silly audit   'lodash.isinteger': [ '4.0.4' ],
+84 silly audit   'lodash.isnumber': [ '3.0.3' ],
+84 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+84 silly audit   'lodash.isstring': [ '4.0.1' ],
+84 silly audit   'lodash.once': [ '4.1.1' ],
+84 silly audit   mailgen: [ '2.0.36' ],
+84 silly audit   'math-intrinsics': [ '1.1.0' ],
+84 silly audit   'media-typer': [ '1.1.1' ],
+84 silly audit   'memory-pager': [ '1.5.0' ],
+84 silly audit   mensch: [ '0.3.4' ],
+84 silly audit   'merge-descriptors': [ '2.0.0' ],
+84 silly audit   mime: [ '2.6.0' ],
+84 silly audit   'mime-db': [ '1.54.0' ],
+84 silly audit   'mime-types': [ '3.0.2' ],
+84 silly audit   'mongodb-connection-string-url': [ '7.0.2' ],
+84 silly audit   mongoose: [ '9.11.2' ],
+84 silly audit   mongodb: [ '7.7.0' ],
+84 silly audit   mpath: [ '0.9.0' ],
+84 silly audit   mquery: [ '6.0.0' ],
+84 silly audit   ms: [ '2.1.3' ],
+84 silly audit   negotiator: [ '1.1.0' ],
+84 silly audit   'node-addon-api': [ '8.9.2' ],
+84 silly audit   'node-fetch': [ '2.7.0' ],
+84 silly audit   tr46: [ '0.0.3', '5.1.1' ],
+84 silly audit   'webidl-conversions': [ '3.0.1', '7.0.0' ],
+84 silly audit   'whatwg-url': [ '5.0.0', '14.2.0' ],
+84 silly audit   'node-gyp-build': [ '4.8.4' ],
+84 silly audit   nodemailer: [ '10.2.1' ],
+84 silly audit   nodemon: [ '3.1.14' ],
+84 silly audit   'normalize-path': [ '3.0.0' ],
+84 silly audit   'nth-check': [ '2.1.1' ],
+84 silly audit   'object-assign': [ '4.1.1' ],
+84 silly audit   'object-inspect': [ '1.13.4' ],
+84 silly audit   'on-finished': [ '2.4.1' ],
+84 silly audit   once: [ '1.4.0' ],
+84 silly audit   parse5: [ '6.0.1' ],
+84 silly audit   'parse5-htmlparser2-tree-adapter': [ '6.0.1' ],
+84 silly audit   parseurl: [ '1.3.3' ],
+84 silly audit   'path-to-regexp': [ '8.4.2' ],
+84 silly audit   picocolors: [ '1.1.1' ],
+84 silly audit   picomatch: [ '2.3.2' ],
+84 silly audit   prettier: [ '3.9.10' ],
+84 silly audit   'proxy-addr': [ '2.0.8' ],
+84 silly audit   'pstree.remy': [ '1.1.8' ],
+84 silly audit   qs: [ '6.16.1' ],
+84 silly audit   'range-parser': [ '1.3.0' ],
+84 silly audit   'raw-body': [ '3.0.2' ],
+84 silly audit   readdirp: [ '3.6.0' ],
+84 silly audit   router: [ '2.2.0' ],
+84 silly audit   'safe-buffer': [ '5.2.1' ],
+84 silly audit   'safer-buffer': [ '2.1.2' ],
+84 silly audit   semver: [ '7.8.5' ],
+84 silly audit   send: [ '1.2.1' ],
+84 silly audit   'serve-static': [ '2.2.1' ],
+84 silly audit   setprototypeof: [ '1.2.0' ],
+84 silly audit   'side-channel': [ '1.1.1' ],
+84 silly audit   'side-channel-list': [ '1.0.1' ],
+84 silly audit   'side-channel-map': [ '1.0.1' ],
+84 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+84 silly audit   sift: [ '17.1.3' ],
+84 silly audit   'simple-update-notifier': [ '2.0.0' ],
+84 silly audit   slick: [ '1.12.2' ],
+84 silly audit   'sparse-bitfield': [ '3.0.3' ],
+84 silly audit   statuses: [ '2.0.2' ],
+84 silly audit   'supports-color': [ '5.5.0' ],
+84 silly audit   'to-regex-range': [ '5.0.1' ],
+84 silly audit   toidentifier: [ '1.0.1' ],
+84 silly audit   touch: [ '3.1.1' ],
+84 silly audit   punycode: [ '2.3.1' ],
+84 silly audit   tslib: [ '2.8.1' ],
+84 silly audit   'type-is': [ '2.1.0' ],
+84 silly audit   undefsafe: [ '2.0.5' ],
+84 silly audit   unpipe: [ '1.0.0' ],
+84 silly audit   'valid-data-url': [ '3.0.1' ],
+84 silly audit   validator: [ '13.15.35' ],
+84 silly audit   vary: [ '1.1.2' ],
+84 silly audit   'web-resource-inliner': [ '6.0.1' ],
+84 silly audit   wrappy: [ '1.0.2' ],
+84 silly audit   '@types/multer': [ '2.3.0' ],
+84 silly audit   '@types/express': [ '5.0.6' ],
+84 silly audit   '@types/body-parser': [ '1.19.6' ],
+84 silly audit   '@types/express-serve-static-core': [ '5.1.3' ],
+84 silly audit   '@types/serve-static': [ '2.2.0' ],
+84 silly audit   '@types/connect': [ '3.4.38' ],
+84 silly audit   '@types/node': [ '26.6.5' ],
+84 silly audit   '@types/qs': [ '6.15.1' ],
+84 silly audit   '@types/range-parser': [ '1.2.7' ],
+84 silly audit   '@types/send': [ '1.2.1' ],
+84 silly audit   'undici-types': [ '8.9.0' ],
+84 silly audit   '@types/http-errors': [ '2.0.5' ]
+84 silly audit }
+85 http cache @types/http-errors@https://registry.npmjs.org/@types/http-errors/-/http-errors-2.0.5.tgz 0ms (cache hit)
+86 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-26.6.5.tgz 0ms (cache hit)
+87 http cache undici-types@https://registry.npmjs.org/undici-types/-/undici-types-8.9.0.tgz 0ms (cache hit)
+88 http cache @types/serve-static@https://registry.npmjs.org/@types/serve-static/-/serve-static-2.2.0.tgz 0ms (cache hit)
+89 http cache @types/connect@https://registry.npmjs.org/@types/connect/-/connect-3.4.38.tgz 0ms (cache hit)
+90 http cache @types/qs@https://registry.npmjs.org/@types/qs/-/qs-6.15.1.tgz 0ms (cache hit)
+91 http cache @types/express@https://registry.npmjs.org/@types/express/-/express-5.0.6.tgz 0ms (cache hit)
+92 http cache @types/express-serve-static-core@https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-5.1.3.tgz 0ms (cache hit)
+93 http cache @types/send@https://registry.npmjs.org/@types/send/-/send-1.2.1.tgz 0ms (cache hit)
+94 http cache @types/body-parser@https://registry.npmjs.org/@types/body-parser/-/body-parser-1.19.6.tgz 0ms (cache hit)
+95 http cache @types/range-parser@https://registry.npmjs.org/@types/range-parser/-/range-parser-1.2.7.tgz 0ms (cache hit)
+96 http cache @types/multer@https://registry.npmjs.org/@types/multer/-/multer-2.3.0.tgz 0ms (cache hit)
+97 silly tarball no local data for @types/serve-static@https://registry.npmjs.org/@types/serve-static/-/serve-static-2.2.0.tgz. Extracting by manifest.
+98 silly tarball no local data for @types/express-serve-static-core@https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-5.1.3.tgz. Extracting by manifest.
+99 silly tarball no local data for @types/express@https://registry.npmjs.org/@types/express/-/express-5.0.6.tgz. Extracting by manifest.
+100 silly tarball no local data for @types/multer@https://registry.npmjs.org/@types/multer/-/multer-2.3.0.tgz. Extracting by manifest.
+101 http fetch GET 200 https://registry.npmjs.org/@types/serve-static/-/serve-static-2.2.0.tgz 70ms (cache miss)
+102 http fetch GET 200 https://registry.npmjs.org/@types/express-serve-static-core/-/express-serve-static-core-5.1.3.tgz 70ms (cache miss)
+103 http fetch GET 200 https://registry.npmjs.org/@types/express/-/express-5.0.6.tgz 72ms (cache miss)
+104 http fetch GET 200 https://registry.npmjs.org/@types/multer/-/multer-2.3.0.tgz 88ms (cache miss)
+105 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 303ms
+106 silly audit report {
+106 silly audit report   'body-parser': [
+106 silly audit report     {
+106 silly audit report       id: 1243074,
+106 silly audit report       url: 'https://github.com/advisories/GHSA-27r3-jxmh-p828',
+106 silly audit report       title: 'body-parser vulnerable to Denial of Service via trailing bytes after a compressed request body',
+106 silly audit report       severity: 'high',
+106 silly audit report       vulnerable_versions: '>=2.0.0 <2.4.0',
+106 silly audit report       cwe: [Array],
+106 silly audit report       cvss: [Object]
+106 silly audit report     }
+106 silly audit report   ]
+106 silly audit report }
+107 silly packumentCache corgi:https://registry.npmjs.org/body-parser cache-miss
+108 http fetch GET 200 https://registry.npmjs.org/body-parser 93ms (cache miss)
+109 silly packumentCache corgi:https://registry.npmjs.org/body-parser set size:undefined disposed:false
+110 silly packumentCache corgi:https://registry.npmjs.org/express cache-miss
+111 http fetch GET 200 https://registry.npmjs.org/express 123ms (cache miss)
+112 silly packumentCache corgi:https://registry.npmjs.org/express set size:undefined disposed:false
+113 silly ADD node_modules/@types/http-errors
+114 silly ADD node_modules/undici-types
+115 silly ADD node_modules/@types/send
+116 silly ADD node_modules/@types/range-parser
+117 silly ADD node_modules/@types/qs
+118 silly ADD node_modules/@types/node
+119 silly ADD node_modules/@types/connect
+120 silly ADD node_modules/@types/serve-static
+121 silly ADD node_modules/@types/express-serve-static-core
+122 silly ADD node_modules/@types/body-parser
+123 silly ADD node_modules/@types/express
+124 silly ADD node_modules/@types/multer
+125 warn allow-scripts 2 packages have install scripts not yet covered by allowScripts:
+125 warn allow-scripts   bcrypt@6.0.0 (install: node-gyp rebuild)
+125 warn allow-scripts   fsevents@2.3.3 (install: (install scripts present))
+125 warn allow-scripts
+125 warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+126 verbose cwd /Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement
+127 verbose os Darwin 25.5.0
+128 verbose node v24.18.1
+129 verbose npm  v11.16.0
+130 verbose exit 0
+131 info ok
