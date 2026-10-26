@@ -1,0 +1,296 @@
+0 verbose cli /Users/praveenkumar/.nvm/versions/node/v24.18.1/bin/node /Users/praveenkumar/.nvm/versions/node/v24.18.1/bin/npm
+1 info using npm@11.16.0
+2 info using node@v24.18.1
+3 silly config load:file:/Users/praveenkumar/.nvm/versions/node/v24.18.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/.npmrc
+5 silly config load:file:/Users/praveenkumar/.npmrc
+6 silly config load:file:/Users/praveenkumar/.nvm/versions/node/v24.18.1/etc/npmrc
+7 verbose title npm install multer
+8 verbose argv "install" "multer"
+9 verbose logfile logs-max:10 dir:/Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/.npm-cache/_logs/2026-10-24T07_20_16_974Z-
+10 verbose logfile /Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement/.npm-cache/_logs/2026-10-24T07_20_16_974Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest multer@*
+16 silly packumentCache full:https://registry.npmjs.org/multer cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/multer 557ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/multer set size:undefined disposed:false
+19 silly placeDep ROOT multer@2.5.0 OK for: projectmanagement@1.0.0 want: *
+20 silly fetch manifest busboy@^1.6.0
+21 silly packumentCache full:https://registry.npmjs.org/busboy cache-miss
+22 silly fetch manifest type-is@^1.6.18
+23 silly packumentCache full:https://registry.npmjs.org/type-is cache-miss
+24 silly fetch manifest append-field@^1.0.0
+25 silly packumentCache full:https://registry.npmjs.org/append-field cache-miss
+26 http fetch GET 200 https://registry.npmjs.org/busboy 80ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/busboy set size:undefined disposed:false
+28 http fetch GET 200 https://registry.npmjs.org/type-is 192ms (cache revalidated)
+29 silly packumentCache full:https://registry.npmjs.org/type-is set size:90391 disposed:false
+30 http fetch GET 200 https://registry.npmjs.org/append-field 194ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/append-field set size:undefined disposed:false
+32 silly placeDep ROOT append-field@1.0.0 OK for: multer@2.5.0 want: ^1.0.0
+33 silly placeDep ROOT busboy@1.6.0 OK for: multer@2.5.0 want: ^1.6.0
+34 silly placeDep node_modules/multer type-is@1.6.18 OK for: multer@2.5.0 want: ^1.6.18
+35 silly fetch manifest streamsearch@^1.1.0
+36 silly packumentCache full:https://registry.npmjs.org/streamsearch cache-miss
+37 silly fetch manifest mime-types@~2.1.24
+38 silly packumentCache full:https://registry.npmjs.org/mime-types cache-miss
+39 silly fetch manifest media-typer@0.3.0
+40 silly packumentCache full:https://registry.npmjs.org/media-typer cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/media-typer 60ms (cache revalidated)
+42 silly packumentCache full:https://registry.npmjs.org/media-typer set size:22074 disposed:false
+43 http fetch GET 200 https://registry.npmjs.org/mime-types 65ms (cache revalidated)
+44 silly packumentCache full:https://registry.npmjs.org/mime-types set size:139110 disposed:false
+45 http fetch GET 200 https://registry.npmjs.org/streamsearch 72ms (cache miss)
+46 silly packumentCache full:https://registry.npmjs.org/streamsearch set size:undefined disposed:false
+47 silly placeDep ROOT streamsearch@1.1.0 OK for: busboy@1.6.0 want: ^1.1.0
+48 silly placeDep node_modules/multer media-typer@0.3.0 OK for: type-is@1.6.18 want: 0.3.0
+49 silly placeDep node_modules/multer mime-types@2.1.35 OK for: type-is@1.6.18 want: ~2.1.24
+50 silly fetch manifest mime-db@1.52.0
+51 silly packumentCache full:https://registry.npmjs.org/mime-db cache-miss
+52 http fetch GET 200 https://registry.npmjs.org/mime-db 64ms (cache revalidated)
+53 silly packumentCache full:https://registry.npmjs.org/mime-db set size:164953 disposed:false
+54 silly placeDep node_modules/multer mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+55 silly reify moves {}
+56 silly audit bulk request {
+56 silly audit   '@mongodb-js/saslprep': [ '1.6.1' ],
+56 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+56 silly audit   '@types/body-parser': [ '1.19.6' ],
+56 silly audit   '@types/connect': [ '3.4.38' ],
+56 silly audit   '@types/express': [ '5.0.6' ],
+56 silly audit   '@types/express-serve-static-core': [ '5.1.3' ],
+56 silly audit   '@types/http-errors': [ '2.0.5' ],
+56 silly audit   '@types/multer': [ '2.3.0' ],
+56 silly audit   '@types/node': [ '26.6.5' ],
+56 silly audit   '@types/qs': [ '6.15.1' ],
+56 silly audit   '@types/range-parser': [ '1.2.7' ],
+56 silly audit   '@types/send': [ '1.2.1' ],
+56 silly audit   '@types/serve-static': [ '2.2.0' ],
+56 silly audit   '@types/webidl-conversions': [ '7.0.3' ],
+56 silly audit   '@types/whatwg-url': [ '13.0.0' ],
+56 silly audit   accepts: [ '2.0.0' ],
+56 silly audit   'ansi-colors': [ '4.1.3' ],
+56 silly audit   anymatch: [ '3.1.3' ],
+56 silly audit   async: [ '3.2.6' ],
+56 silly audit   'balanced-match': [ '4.0.4', '1.0.2' ],
+56 silly audit   bcrypt: [ '6.0.0' ],
+56 silly audit   'binary-extensions': [ '2.3.0' ],
+56 silly audit   'body-parser': [ '2.3.0' ],
+56 silly audit   boolbase: [ '1.0.0' ],
+56 silly audit   'brace-expansion': [ '5.0.12', '2.1.7' ],
+56 silly audit   braces: [ '3.0.3' ],
+56 silly audit   bson: [ '7.3.3' ],
+56 silly audit   'buffer-equal-constant-time': [ '1.0.1' ],
+56 silly audit   bytes: [ '3.1.2' ],
+56 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+56 silly audit   'call-bound': [ '1.0.4' ],
+56 silly audit   cheerio: [ '1.0.0-rc.10' ],
+56 silly audit   'cheerio-select': [ '1.6.0' ],
+56 silly audit   chokidar: [ '3.6.0' ],
+56 silly audit   commander: [ '6.2.1' ],
+56 silly audit   'content-disposition': [ '2.0.1' ],
+56 silly audit   'content-type': [ '2.1.0' ],
+56 silly audit   cookie: [ '0.7.2' ],
+56 silly audit   'cookie-parser': [ '1.4.7' ],
+56 silly audit   'cookie-signature': [ '1.0.6', '1.2.2' ],
+56 silly audit   cors: [ '2.8.6' ],
+56 silly audit   'css-select': [ '4.3.0' ],
+56 silly audit   'css-what': [ '6.2.2' ],
+56 silly audit   debug: [ '4.4.3' ],
+56 silly audit   depd: [ '2.0.0' ],
+56 silly audit   'dom-serializer': [ '1.4.1' ],
+56 silly audit   domelementtype: [ '2.3.0' ],
+56 silly audit   domhandler: [ '4.3.1', '3.3.0' ],
+56 silly audit   domutils: [ '2.8.0' ],
+56 silly audit   dotenv: [ '18.0.8' ],
+56 silly audit   'dunder-proto': [ '1.0.1' ],
+56 silly audit   'ecdsa-sig-formatter': [ '1.0.11' ],
+56 silly audit   'ee-first': [ '1.1.1' ],
+56 silly audit   ejs: [ '3.1.10' ],
+56 silly audit   encodeurl: [ '2.0.0' ],
+56 silly audit   entities: [ '2.2.0' ],
+56 silly audit   'es-define-property': [ '1.0.1' ],
+56 silly audit   'es-errors': [ '1.3.0' ],
+56 silly audit   'es-object-atoms': [ '1.1.2' ],
+56 silly audit   'escape-goat': [ '3.0.0' ],
+56 silly audit   'escape-html': [ '1.0.3' ],
+56 silly audit   etag: [ '1.8.1' ],
+56 silly audit   express: [ '5.3.0' ],
+56 silly audit   'express-validator': [ '7.3.2' ],
+56 silly audit   filelist: [ '1.0.6' ],
+56 silly audit   minimatch: [ '5.1.9', '10.2.6' ],
+56 silly audit   'fill-range': [ '7.1.1' ],
+56 silly audit   finalhandler: [ '2.1.1' ],
+56 silly audit   forwarded: [ '0.2.0' ],
+56 silly audit   fresh: [ '2.0.0' ],
+56 silly audit   fsevents: [ '2.3.3' ],
+56 silly audit   'function-bind': [ '1.1.2' ],
+56 silly audit   'get-intrinsic': [ '1.3.0' ],
+56 silly audit   'get-proto': [ '1.0.1' ],
+56 silly audit   'glob-parent': [ '5.1.2' ],
+56 silly audit   gopd: [ '1.2.0' ],
+56 silly audit   'has-flag': [ '3.0.0' ],
+56 silly audit   'has-symbols': [ '1.1.0' ],
+56 silly audit   hasown: [ '2.0.4' ],
+56 silly audit   he: [ '1.2.0' ],
+56 silly audit   htmlparser2: [ '6.1.0', '5.0.1' ],
+56 silly audit   'http-errors': [ '2.0.1' ],
+56 silly audit   'iconv-lite': [ '0.7.3' ],
+56 silly audit   'ignore-by-default': [ '1.0.1' ],
+56 silly audit   inherits: [ '2.0.4' ],
+56 silly audit   'ipaddr.js': [ '1.9.1' ],
+56 silly audit   'is-binary-path': [ '2.1.0' ],
+56 silly audit   'is-extglob': [ '2.1.1' ],
+56 silly audit   'is-glob': [ '4.0.3' ],
+56 silly audit   'is-number': [ '7.0.0' ],
+56 silly audit   'is-promise': [ '4.0.0' ],
+56 silly audit   jake: [ '10.9.4' ],
+56 silly audit   jsonwebtoken: [ '9.0.3' ],
+56 silly audit   juice: [ '8.1.0' ],
+56 silly audit   jwa: [ '2.0.1' ],
+56 silly audit   jws: [ '4.0.1' ],
+56 silly audit   kareem: [ '3.4.1' ],
+56 silly audit   lodash: [ '4.18.1' ],
+56 silly audit   'lodash.includes': [ '4.3.0' ],
+56 silly audit   'lodash.isboolean': [ '3.0.3' ],
+56 silly audit   'lodash.isinteger': [ '4.0.4' ],
+56 silly audit   'lodash.isnumber': [ '3.0.3' ],
+56 silly audit   'lodash.isplainobject': [ '4.0.6' ],
+56 silly audit   'lodash.isstring': [ '4.0.1' ],
+56 silly audit   'lodash.once': [ '4.1.1' ],
+56 silly audit   mailgen: [ '2.0.36' ],
+56 silly audit   'math-intrinsics': [ '1.1.0' ],
+56 silly audit   'media-typer': [ '1.1.1', '0.3.0' ],
+56 silly audit   'memory-pager': [ '1.5.0' ],
+56 silly audit   mensch: [ '0.3.4' ],
+56 silly audit   'merge-descriptors': [ '2.0.0' ],
+56 silly audit   mime: [ '2.6.0' ],
+56 silly audit   'mime-db': [ '1.54.0', '1.52.0' ],
+56 silly audit   'mime-types': [ '3.0.2', '2.1.35' ],
+56 silly audit   'mongodb-connection-string-url': [ '7.0.2' ],
+56 silly audit   mongoose: [ '9.11.2' ],
+56 silly audit   mongodb: [ '7.7.0' ],
+56 silly audit   mpath: [ '0.9.0' ],
+56 silly audit   mquery: [ '6.0.0' ],
+56 silly audit   ms: [ '2.1.3' ],
+56 silly audit   negotiator: [ '1.1.0' ],
+56 silly audit   'node-addon-api': [ '8.9.2' ],
+56 silly audit   'node-fetch': [ '2.7.0' ],
+56 silly audit   tr46: [ '0.0.3', '5.1.1' ],
+56 silly audit   'webidl-conversions': [ '3.0.1', '7.0.0' ],
+56 silly audit   'whatwg-url': [ '5.0.0', '14.2.0' ],
+56 silly audit   'node-gyp-build': [ '4.8.4' ],
+56 silly audit   nodemailer: [ '10.2.1' ],
+56 silly audit   nodemon: [ '3.1.14' ],
+56 silly audit   'normalize-path': [ '3.0.0' ],
+56 silly audit   'nth-check': [ '2.1.1' ],
+56 silly audit   'object-assign': [ '4.1.1' ],
+56 silly audit   'object-inspect': [ '1.13.4' ],
+56 silly audit   'on-finished': [ '2.4.1' ],
+56 silly audit   once: [ '1.4.0' ],
+56 silly audit   parse5: [ '6.0.1' ],
+56 silly audit   'parse5-htmlparser2-tree-adapter': [ '6.0.1' ],
+56 silly audit   parseurl: [ '1.3.3' ],
+56 silly audit   'path-to-regexp': [ '8.4.2' ],
+56 silly audit   picocolors: [ '1.1.1' ],
+56 silly audit   picomatch: [ '2.3.2' ],
+56 silly audit   prettier: [ '3.9.10' ],
+56 silly audit   'proxy-addr': [ '2.0.8' ],
+56 silly audit   'pstree.remy': [ '1.1.8' ],
+56 silly audit   qs: [ '6.16.1' ],
+56 silly audit   'range-parser': [ '1.3.0' ],
+56 silly audit   'raw-body': [ '3.0.2' ],
+56 silly audit   readdirp: [ '3.6.0' ],
+56 silly audit   router: [ '2.2.0' ],
+56 silly audit   'safe-buffer': [ '5.2.1' ],
+56 silly audit   'safer-buffer': [ '2.1.2' ],
+56 silly audit   semver: [ '7.8.5' ],
+56 silly audit   send: [ '1.2.1' ],
+56 silly audit   'serve-static': [ '2.2.1' ],
+56 silly audit   setprototypeof: [ '1.2.0' ],
+56 silly audit   'side-channel': [ '1.1.1' ],
+56 silly audit   'side-channel-list': [ '1.0.1' ],
+56 silly audit   'side-channel-map': [ '1.0.1' ],
+56 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+56 silly audit   sift: [ '17.1.3' ],
+56 silly audit   'simple-update-notifier': [ '2.0.0' ],
+56 silly audit   slick: [ '1.12.2' ],
+56 silly audit   'sparse-bitfield': [ '3.0.3' ],
+56 silly audit   statuses: [ '2.0.2' ],
+56 silly audit   'supports-color': [ '5.5.0' ],
+56 silly audit   'to-regex-range': [ '5.0.1' ],
+56 silly audit   toidentifier: [ '1.0.1' ],
+56 silly audit   touch: [ '3.1.1' ],
+56 silly audit   punycode: [ '2.3.1' ],
+56 silly audit   tslib: [ '2.8.1' ],
+56 silly audit   'type-is': [ '2.1.0', '1.6.18' ],
+56 silly audit   undefsafe: [ '2.0.5' ],
+56 silly audit   'undici-types': [ '8.9.0' ],
+56 silly audit   unpipe: [ '1.0.0' ],
+56 silly audit   'valid-data-url': [ '3.0.1' ],
+56 silly audit   validator: [ '13.15.35' ],
+56 silly audit   vary: [ '1.1.2' ],
+56 silly audit   'web-resource-inliner': [ '6.0.1' ],
+56 silly audit   wrappy: [ '1.0.2' ],
+56 silly audit   multer: [ '2.5.0' ],
+56 silly audit   'append-field': [ '1.0.0' ],
+56 silly audit   busboy: [ '1.6.0' ],
+56 silly audit   streamsearch: [ '1.1.0' ]
+56 silly audit }
+57 http cache mime-db@https://registry.npmjs.org/mime-db/-/mime-db-1.52.0.tgz 0ms (cache hit)
+58 http cache append-field@https://registry.npmjs.org/append-field/-/append-field-1.0.0.tgz 0ms (cache hit)
+59 http cache media-typer@https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz 0ms (cache hit)
+60 http cache streamsearch@https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz 0ms (cache hit)
+61 http cache mime-types@https://registry.npmjs.org/mime-types/-/mime-types-2.1.35.tgz 0ms (cache hit)
+62 http cache multer@https://registry.npmjs.org/multer/-/multer-2.5.0.tgz 0ms (cache hit)
+63 http cache type-is@https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz 0ms (cache hit)
+64 http cache busboy@https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz 0ms (cache hit)
+65 silly tarball no local data for append-field@https://registry.npmjs.org/append-field/-/append-field-1.0.0.tgz. Extracting by manifest.
+66 silly tarball no local data for streamsearch@https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz. Extracting by manifest.
+67 silly tarball no local data for multer@https://registry.npmjs.org/multer/-/multer-2.5.0.tgz. Extracting by manifest.
+68 silly tarball no local data for busboy@https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz. Extracting by manifest.
+69 http fetch GET 200 https://registry.npmjs.org/streamsearch/-/streamsearch-1.1.0.tgz 65ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/append-field/-/append-field-1.0.0.tgz 65ms (cache miss)
+71 http fetch GET 200 https://registry.npmjs.org/multer/-/multer-2.5.0.tgz 277ms (cache miss)
+72 http fetch GET 200 https://registry.npmjs.org/busboy/-/busboy-1.6.0.tgz 278ms (cache miss)
+73 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 314ms
+74 silly audit report {
+74 silly audit report   'body-parser': [
+74 silly audit report     {
+74 silly audit report       id: 1243074,
+74 silly audit report       url: 'https://github.com/advisories/GHSA-27r3-jxmh-p828',
+74 silly audit report       title: 'body-parser vulnerable to Denial of Service via trailing bytes after a compressed request body',
+74 silly audit report       severity: 'high',
+74 silly audit report       vulnerable_versions: '>=2.0.0 <2.4.0',
+74 silly audit report       cwe: [Array],
+74 silly audit report       cvss: [Object]
+74 silly audit report     }
+74 silly audit report   ]
+74 silly audit report }
+75 silly packumentCache corgi:https://registry.npmjs.org/body-parser cache-miss
+76 http cache https://registry.npmjs.org/body-parser 11ms (cache hit)
+77 silly packumentCache corgi:https://registry.npmjs.org/body-parser set size:84904 disposed:false
+78 silly packumentCache corgi:https://registry.npmjs.org/express cache-miss
+79 http cache https://registry.npmjs.org/express 2ms (cache hit)
+80 silly packumentCache corgi:https://registry.npmjs.org/express set size:342878 disposed:false
+81 silly ADD node_modules/streamsearch
+82 silly ADD node_modules/busboy
+83 silly ADD node_modules/append-field
+84 silly ADD node_modules/multer
+85 silly ADD node_modules/multer/node_modules/mime-db
+86 silly ADD node_modules/multer/node_modules/mime-types
+87 silly ADD node_modules/multer/node_modules/media-typer
+88 silly ADD node_modules/multer/node_modules/type-is
+89 warn allow-scripts 2 packages have install scripts not yet covered by allowScripts:
+89 warn allow-scripts   bcrypt@6.0.0 (install: node-gyp rebuild)
+89 warn allow-scripts   fsevents@2.3.3 (install: (install scripts present))
+89 warn allow-scripts
+89 warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+90 verbose cwd /Users/praveenkumar/iCloud Drive (Archive)/Documents/coding/ProjectManagement
+91 verbose os Darwin 25.5.0
+92 verbose node v24.18.1
+93 verbose npm  v11.16.0
+94 verbose exit 0
+95 info ok

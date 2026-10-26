@@ -1,6 +1,7 @@
 {
   "name": "projectmanagement",
   "version": "1.0.0",
+<<<<<<< HEAD
   "private": true,
   "type": "module",
   "scripts": {
@@ -72,5 +73,45 @@
     "three": "^0.186.1",
     "vite": "^8.3.0",
     "zod": "^4.6.7"
+=======
+  "description": "a project management application for beginner",
+  "keywords": [
+    "udemy",
+    "course"
+  ],
+  "homepage": "https://github.com/praveen-codes36/projectmanagement#readme",
+  "bugs": {
+    "url": "https://github.com/praveen-codes36/projectmanagement/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveen-codes36/projectmanagement.git"
+  },
+  "license": "ISC",
+  "author": "praveen kumar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "@types/multer": "^2.3.0",
+    "nodemon": "^3.1.14",
+    "prettier": "3.9.10"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.8",
+    "express": "^5.3.0",
+    "express-validator": "^7.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "mailgen": "^2.0.36",
+    "mongoose": "^9.11.2",
+    "multer": "^2.5.0",
+    "nodemailer": "^10.2.1"
+>>>>>>> b11b247bf48d7119babaf3bedc5de1f2f71ad229
   }
 }

@@ -1,2 +1,6 @@
 
+<<<<<<< HEAD
 b55dbdf029146bf956f6ca6e2cd4ae90575551ca	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/qs/-/qs-6.16.1.tgz","integrity":"sha512-5Px6J7rfHBAGUhNQ3es4YzcOdBBw0SDcVtThJml4RdnKw4tKs2epA0kPZ+K8X+WiHktT93RHVcQ/3ym5aTCgtg==","time":1792993544018,"size":85495,"metadata":{"time":1792993543956,"url":"https://registry.npmjs.org/qs/-/qs-6.16.1.tgz","reqHeaders":{},"resHeaders":{"cache-control":"public, immutable, max-age=31557600","content-type":"application/octet-stream","date":"Mon, 26 Oct 2026 05:45:43 GMT","etag":"\"78d0c6b49de58cda7573fedd31f71000\"","last-modified":"Wed, 14 Oct 2026 22:06:19 GMT"},"options":{"compress":true}}}
+=======
+f743d28155e85292e9114996015a4150b596165e	{"key":"make-fetch-happen:request-cache:https://registry.npmjs.org/qs/-/qs-6.16.1.tgz","integrity":"sha512-5Px6J7rfHBAGUhNQ3es4YzcOdBBw0SDcVtThJml4RdnKw4tKs2epA0kPZ+K8X+WiHktT93RHVcQ/3ym5aTCgtg==","time":1792585748232,"size":85495,"metadata":{"time":1792585748218,"url":"https://registry.npmjs.org/qs/-/qs-6.16.1.tgz","reqHeaders":{},"resHeaders":{"cache-control":"public, immutable, max-age=31557600","content-type":"application/octet-stream","date":"Wed, 21 Oct 2026 12:29:08 GMT","etag":"\"78d0c6b49de58cda7573fedd31f71000\"","last-modified":"Wed, 14 Oct 2026 22:06:19 GMT"},"options":{"compress":true}}}
+>>>>>>> b11b247bf48d7119babaf3bedc5de1f2f71ad229
