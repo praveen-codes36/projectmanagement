@@ -1,0 +1,31 @@
+'Log files:
+/Users/praveenkumar/Documents/coding/ProjectManagement/.npm-cache/_logs/2026-10-26T05_42_04_119Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: projectmanagement@1.0.0
+Found: effect@3.22.4
+node_modules/effect
+  peerOptional effect@"^3.6.5" from @typeschema/effect@0.14.0
+  node_modules/@typeschema/effect
+    peerOptional @typeschema/effect@"0.14.0" from @typeschema/main@0.14.1
+    node_modules/@typeschema/main
+      peerOptional @typeschema/main@">=0.13.7" from @hookform/resolvers@6.0.0
+      node_modules/@hookform/resolvers
+        @hookform/resolvers@"^6.0.0" from the root project
+  peer effect@"^3.6.8" from @effect/schema@0.71.4
+  node_modules/@effect/schema
+    peerOptional @effect/schema@"^0.71.1" from @typeschema/effect@0.14.0
+    node_modules/@typeschema/effect
+      peerOptional @typeschema/effect@"0.14.0" from @typeschema/main@0.14.1
+      node_modules/@typeschema/main
+        peerOptional @typeschema/main@">=0.13.7" from @hookform/resolvers@6.0.0
+        node_modules/@hookform/resolvers
+          @hookform/resolvers@"^6.0.0" from the root project
+
+Could not resolve dependency:
+peerOptional effect@"^4.0.0" from @hookform/resolvers@6.0.0
+node_modules/@hookform/resolvers
+  @hookform/resolvers@"^6.0.0" from the root project
+
+Fix the upstream dependency conflict, or retry this command with --force or --legacy-peer-deps to accept an incorrect (and potentially broken) dependency resolution.

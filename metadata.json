@@ -1,0 +1,6 @@
+{
+  "name": "Project Camp",
+  "description": "Collaborative project management platform designed around expeditions, waypoints, and team progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

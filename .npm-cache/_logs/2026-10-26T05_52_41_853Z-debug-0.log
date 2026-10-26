@@ -1,0 +1,41 @@
+0 verbose cli /Users/praveenkumar/.nvm/versions/node/v24.18.1/bin/node /Users/praveenkumar/.nvm/versions/node/v24.18.1/bin/npm
+1 info using npm@11.16.0
+2 info using node@v24.18.1
+3 silly config load:file:/Users/praveenkumar/.nvm/versions/node/v24.18.1/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/praveenkumar/Documents/coding/ProjectManagement/.npmrc
+5 silly config load:file:/Users/praveenkumar/.npmrc
+6 silly config load:file:/Users/praveenkumar/.nvm/versions/node/v24.18.1/etc/npmrc
+7 verbose title npm install lenis@^1.3.27
+8 verbose argv "install" "lenis@^1.3.27" "--save" "--legacy-peer-deps" "--no-audit" "--no-fund"
+9 verbose logfile logs-max:10 dir:/Users/praveenkumar/Documents/coding/ProjectManagement/.npm-cache/_logs/2026-10-26T05_52_41_853Z-
+10 verbose logfile /Users/praveenkumar/Documents/coding/ProjectManagement/.npm-cache/_logs/2026-10-26T05_52_41_853Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+15 silly idealTree buildDeps
+16 silly fetch manifest lenis@^1.3.27
+17 silly packumentCache full:https://registry.npmjs.org/lenis cache-miss
+18 http fetch GET 200 https://registry.npmjs.org/lenis 727ms (cache miss)
+19 silly packumentCache full:https://registry.npmjs.org/lenis set size:undefined disposed:false
+20 silly placeDep ROOT lenis@1.3.27 OK for: projectmanagement@1.0.0 want: ^1.3.27
+21 silly reify moves {}
+22 http cache lenis@https://registry.npmjs.org/lenis/-/lenis-1.3.27.tgz 0ms (cache hit)
+23 silly tarball no local data for lenis@https://registry.npmjs.org/lenis/-/lenis-1.3.27.tgz. Extracting by manifest.
+24 http fetch GET 200 https://registry.npmjs.org/lenis/-/lenis-1.3.27.tgz 367ms (cache miss)
+25 silly ADD node_modules/lenis
+26 warn allow-scripts 6 packages have install scripts not yet covered by allowScripts:
+26 warn allow-scripts   @google/genai@2.31.0 (install: (install scripts present))
+26 warn allow-scripts   bcrypt@6.0.0 (install: node-gyp rebuild)
+26 warn allow-scripts   esbuild@0.25.12 (install: (install scripts present))
+26 warn allow-scripts   fsevents@2.3.3 (install: (install scripts present))
+26 warn allow-scripts   protobufjs@7.6.6 (install: (install scripts present))
+26 warn allow-scripts   esbuild@0.28.2 (install: (install scripts present))
+26 warn allow-scripts
+26 warn allow-scripts Run `npm approve-scripts --allow-scripts-pending` to review, or `npm approve-scripts <pkg>` to allow.
+27 verbose cwd /Users/praveenkumar/Documents/coding/ProjectManagement
+28 verbose os Darwin 25.5.0
+29 verbose node v24.18.1
+30 verbose npm  v11.16.0
+31 verbose exit 0
+32 info ok

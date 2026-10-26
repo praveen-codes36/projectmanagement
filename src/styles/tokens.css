@@ -1,0 +1,52 @@
+:root {
+  /* Color Palette - Light Theme */
+  --color-background: #F8FAF9;
+  --color-surface: #FFFFFF;
+  --color-surface-raised: #F0F4F2;
+  --color-border: #E1E8E5;
+  --color-text: #14221D;
+  --color-text-muted: #5F7369;
+  --color-primary: #1C382F;
+  --color-primary-contrast: #FFFFFF;
+  --color-accent: #D97706;
+  --color-success: #15803D;
+  --color-warning: #B45309;
+  --color-danger: #B91C1C;
+  
+  /* Task Status */
+  --status-todo: #475569;
+  --status-in-progress: #0284C7;
+  --status-done: #15803D;
+
+  /* Radius tokens */
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Font Families */
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-sans: 'DM Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+.dark {
+  /* Color Palette - Dark Theme */
+  --color-background: #0E1513;
+  --color-surface: #141E1A;
+  --color-surface-raised: #1A2823;
+  --color-border: #273A33;
+  --color-text: #ECF2EE;
+  --color-text-muted: #8BA096;
+  --color-primary: #3B7E67;
+  --color-primary-contrast: #FFFFFF;
+  --color-accent: #F59E0B;
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+
+  /* Task Status */
+  --status-todo: #94A3B8;
+  --status-in-progress: #38BDF8;
+  --status-done: #4ADE80;
+}
